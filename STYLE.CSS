@@ -5,6 +5,7 @@
   header {
     background-color: rgb(217, 217, 108); 
     text-align: center;
+    padding: 10px;
   }
   section {background-color: rgb(126, 139, 113);
 
@@ -12,6 +13,7 @@
 
   footer {background-color: rgb(162, 188, 117);
   text-align: center;
+  padding: 10px;
   }
 
   article { background-color: rgb(214, 234, 195);
@@ -24,6 +26,22 @@
 
   h1 {color: aliceblue;
 
+  }
+  
+  h2 {
+    color:rgb(80, 106, 95);
+  }
+  h4 {
+    color: aliceblue;
+  }
+
+  .foot-p {
+
+    color: rgb(255, 255, 255);
+  }
+
+  header > p {
+    color: aliceblue;
   }
 
   * {
