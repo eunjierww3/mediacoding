@@ -1,23 +1,56 @@
+  * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+   margin0;
+  }
+  
   nav {
     background-color: #423939;
   }
 
+  nav ul {
+   list-style: none;
+   text-align: center;
+   padding:30px;
+   margin-bottom:0;
+  }
+
+  nav ul li {
+   display:inline;
+   margin: 15px;
+  }
+
+  nav a{
+   text-decoration: none;
+  }
+
+  nav a:hover {
+   text-decoration: underline;
+  }
+
   header {
-    background-color: rgb(217, 217, 108); 
+    background-color: rgb(171, 171, 124); 
     text-align: center;
     padding: 10px;
-  }
-  section {background-color: rgb(126, 139, 113);
-
+    padding-bottom: 30px;
   }
 
-  footer {background-color: rgb(162, 188, 117);
+  section {background-color: rgb(238, 240, 214);
+  padding: 20px;
+  }
+
+  footer {background-color: rgb(207, 214, 195);
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   }
 
-  article { background-color: rgb(214, 234, 195);
-
+  article { background-color: rgb(253, 254, 251);
+   padding:20px;
+    margin-bottom: 25px;
+   border-radius: 12px;
+   box-shadow: 0px 8px 15px 1px rgba(0,0,0,0.34);
   }
 
   a {color: rgb(255, 255, 255);
